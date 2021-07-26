@@ -12,8 +12,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/Mahesh0253/Media-Search-bot",
-    "repository": "https://github.com/Mahesh0253/Media-Search-bot",
+    "website": "https://github.com/casperteam/inlinefilesearch",
+    "repository": "https://github.com/casperteam/inlinefilesearch",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
@@ -62,7 +62,7 @@
         },
         "USE_CAPTION_FILTER": {
             "description": "Whether bot should use captions to improve search results. (True False)",
-            "value": "False",
+            "value": "True",
             "required": false
         },
         "DATABASE_URI": {
@@ -80,7 +80,7 @@
         },
         "CACHE_TIME": {
             "description": "The maximum amount of time in seconds that the result of the inline query may be cached on the server",
-            "value": "300",
+            "value": "3000",
             "required": false
         }
     },
